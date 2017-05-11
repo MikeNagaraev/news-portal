@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Glegoo');
+.app-header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border-bottom: 2px solid #000000;
+  padding: 0 50px;
+}
+
+.app-header>.logo {
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-text {
+  font-family: Glegoo;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.logo-text:hover {
+  color: #a1a1a1;
+}
+
+.news-filter {
+  position: absolute;
+  top: 0;
+}
+
+.news-filter a {
+  float: left;
+  display: block;
+  margin-top: 20px;
+  padding: 0 16px;
+  padding-bottom: 0;
+  color: #4c4c4c;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Copse;
+}
+
+.news-filter a:hover {
+  color: #a1a1a1;
+}
+
+.news-filter a:not(:last-child) {
+  border-right: 1px solid #a1a1a1;
+}
+
+.help-nav {
+  position: absolute;
+  top: 0;
+}
+
+.search-bar {
+  position: relative;
+  color: #4c4c4c;
+  right: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.search-bar i {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.search-bar i:hover {
+  color: #a1a1a1;
+}
+
+.app-navbar {
+  width: 100%;
+  height: 40px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000000;
+}
+
+.navigation-list {
+  height: 100%;
+  margin: 2px auto;
+  width: 60%;
+  padding: 0 10px;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.navigation-list li {
+  flex: 1;
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  text-align: center;
+  line-height: 40px;
+  background-color: #FF9933;
+}
+
+.navigation-list li:hover {
+  background-color: rgb(244, 197, 118);
+}
+
+.navigation-list li:not(:first-child) {
+  margin-left: 20px;
+}
+
+.nav-tab {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Copse;
+}
