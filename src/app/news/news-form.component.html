@@ -1,0 +1,24 @@
+<div class="container">
+  <form class="news-form" (ngSubmit)="createNews(newsItem)">
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" class="form-control" name="title" [(ngModel)]="newsItem.title">
+    </div>
+    <div class="form-group">
+      <label for="description">Short description:</label>
+      <input type="text" class="form-control" name="description" [(ngModel)]="newsItem.description">
+    </div>
+    <div class="form-group">
+      <label for="content">Content:</label>
+      <textarea class="form-control" rows="8" cols="80" name="content" [(ngModel)]="newsItem.content"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="image">Image:</label>
+      <input type="text" class="form-control" [(ngModel)]="newsItem.image" name="image">
+    </div>
+    <div class="button-group">
+      <button type="submit" name="button" class="btn btn-success">Create news</button>
+      <button type="button" name="button" class="btn btn-danger pull-right" routerLink="/home">Back</button>
+    </div>
+  </form>
+</div>

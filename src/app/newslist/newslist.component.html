@@ -1,0 +1,15 @@
+<ul class="news-list">
+  <li *ngFor="let news of allNews" class="news-item col-md-6">
+    <div class="col-md-12">
+      <div class="new-title">
+        <a [routerLink]="['/news', news.id]"> {{news.title}} </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="{{news.image}}" alt="">
+    </div>
+    <div class="col-md-6">
+      {{news.content}}
+    </div>
+  </li>
+</ul>

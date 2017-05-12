@@ -1,0 +1,7 @@
+<nav class="app-navbar">
+  <ul class="navigation-list">
+    <li *ngFor="let tab of navigationTabs">
+      <a [href]="tab.link" class="nav-tab" [ngClass]="{'active': isPathEqual(tab)}">{{tab.name}}</a>
+    </li>
+  </ul>
+</nav>

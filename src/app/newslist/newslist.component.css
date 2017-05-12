@@ -1,0 +1,15 @@
+.news-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.news-list .news-item {
+  padding: 0;
+  float: left;
+}
+
+.news-item img {
+  width: 100%;
+}
