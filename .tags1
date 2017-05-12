@@ -4,5 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-mongoose	D:\Projects\angular-project\server\db\models\News.js	/^var mongoose = require('mongoose');$/;"	variable	line:1
-NewsSchema	D:\Projects\angular-project\server\db\models\News.js	/^var NewsSchema = mongoose.Schema({$/;"	variable	line:3
+.news-form	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form {$/;"	function	line:1
+.news-form>.container	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form>.container {$/;"	function	line:8
+.news-form .form-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .form-group {$/;"	function	line:14
+.news-form label	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form label {$/;"	function	line:19
+.news-form .button-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .button-group {$/;"	function	line:23
+textarea	D:\Projects\news-portal\src\app\news\news.component.css	/^textarea {$/;"	function	line:27
+.vertical-align	D:\Projects\news-portal\src\app\news\news.component.css	/^.vertical-align {$/;"	function	line:31
+.input-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default {$/;"	function	line:37
+.input-default:focus	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default:focus {$/;"	function	line:46
+.button-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default {$/;"	function	line:50
+.button-default:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default:hover {$/;"	function	line:66
+h2	D:\Projects\news-portal\src\app\news\news.component.css	/^h2 {$/;"	function	line:70
+h2:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^h2:hover {$/;"	function	line:78

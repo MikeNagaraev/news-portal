@@ -1,24 +1,55 @@
-<div class="container">
-  <form class="news-form" (ngSubmit)="createNews(newsItem)">
-    <div class="form-group">
-      <label for="title">Title:</label>
-      <input type="text" class="form-control" name="title" [(ngModel)]="newsItem.title">
+<form class="news-form" (ngSubmit)="createNews(newsItem)">
+  <div class="container">
+    <div class="col-md-2 col-md-offset-5">
+      <h2>News Form</h2>
     </div>
-    <div class="form-group">
-      <label for="description">Short description:</label>
-      <input type="text" class="form-control" name="description" [(ngModel)]="newsItem.description">
+    <div class="col-md-6">
+      <div class="form-group">
+        <div class="col-md-3 vertical-align">
+          <label for="title">Title:</label>
+        </div>
+        <div class="col-md-9 vertical-align">
+          <input type="text" class="input-default" autofocus name="title" [(ngModel)]="newsItem.title">
+        </div>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="content">Content:</label>
-      <textarea class="form-control" rows="8" cols="80" name="content" [(ngModel)]="newsItem.content"></textarea>
+    <div class="col-md-6">
+      <div class="form-group">
+        <div class="col-md-3 vertical-align">
+          <label for="image">Image:</label>
+        </div>
+        <div class="col-md-9 vertical-align">
+          <input type="text" class="input-default" [(ngModel)]="newsItem.image" name="image">
+        </div>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="image">Image:</label>
-      <input type="text" class="form-control" [(ngModel)]="newsItem.image" name="image">
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="col-md-2 vertical-align">
+          <label for="description">Short description:</label>
+        </div>
+        <div class="col-md-10 vertical-align">
+          <textarea type="text" class="input-default" rows="2" name="description" [(ngModel)]="newsItem.description"></textarea>
+        </div>
+      </div>
     </div>
-    <div class="button-group">
-      <button type="submit" name="button" class="btn btn-success">Create news</button>
-      <button type="button" name="button" class="btn btn-danger pull-right" routerLink="/home">Back</button>
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="col-md-2">
+          <label for="content">Content:</label>
+        </div>
+        <div class="col-md-10">
+          <textarea class="input-default" rows="8" cols="80" name="content" [(ngModel)]="newsItem.content"></textarea>
+        </div>
+      </div>
     </div>
-  </form>
-</div>
+    <div class="col-md-12">
+      <div class="col-md-3 col-md-offset-5">
+        <div class="button-group">
+          <button type="submit" name="button" class="button-default">Submit</button>
+          <button type="button" name="button" class="button-default" routerLink="/home">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
