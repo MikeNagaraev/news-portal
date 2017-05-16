@@ -4,10 +4,20 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-div	D:\Projects\news-portal\src\app\app.component.html	/^<div class="container-fluid">$/;"	function	line:1
-div	D:\Projects\news-portal\src\app\app.component.html	/^  <div class="app-container">$/;"	function	line:2
-div	D:\Projects\news-portal\src\app\app.component.html	/^    <div class="container">$/;"	function	line:3
-div	D:\Projects\news-portal\src\app\app.component.html	/^      <div class="col-md-12">$/;"	function	line:4
-app	D:\Projects\news-portal\src\app\app.component.html	/^        <app-header><\/app-header>$/;"	function	line:5
-app	D:\Projects\news-portal\src\app\app.component.html	/^        <app-navigation><\/app-navigation>$/;"	function	line:6
-router	D:\Projects\news-portal\src\app\app.component.html	/^      <router-outlet><\/router-outlet>$/;"	function	line:8
+.news-form	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form {$/;"	function	line:1
+.news-form>.container	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form>.container {$/;"	function	line:7
+.news-form .form-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .form-group {$/;"	function	line:16
+.news-form label	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form label {$/;"	function	line:21
+.news-form .button-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .button-group {$/;"	function	line:25
+textarea	D:\Projects\news-portal\src\app\news\news.component.css	/^textarea {$/;"	function	line:29
+.vertical-align	D:\Projects\news-portal\src\app\news\news.component.css	/^.vertical-align {$/;"	function	line:33
+.input-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default {$/;"	function	line:39
+.input-default:focus	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default:focus {$/;"	function	line:48
+.button-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default {$/;"	function	line:53
+.button-default:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default:hover {$/;"	function	line:69
+h2	D:\Projects\news-portal\src\app\news\news.component.css	/^h2 {$/;"	function	line:73
+h2:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^h2:hover {$/;"	function	line:81
+.add-news	D:\Projects\news-portal\src\app\news\news.component.css	/^.add-news {$/;"	function	line:85
+.add-news:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^.add-news:hover {$/;"	function	line:95
+.add-news .icon	D:\Projects\news-portal\src\app\news\news.component.css	/^.add-news .icon {$/;"	function	line:99
+.add-news .text	D:\Projects\news-portal\src\app\news\news.component.css	/^.add-news .text {$/;"	function	line:109

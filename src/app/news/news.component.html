@@ -1,3 +1,10 @@
-<a (click)="navigate(['/news', 'new'])"> Add new!</a>
+<div (click)="navigate(['/news', 'new'])" class="add-news">
+  <div class="icon">
+    <span class="glyphicon glyphicon-plus"></span>
+  </div>
+  <div class="text">
+    Add new!
+  </div>
+</div>
 
 <news-list></news-list>

@@ -7,6 +7,8 @@
 .news-form>.container {
   margin-top: 20px;
   box-shadow: 0 0 6px #000000;
+  box-sizing: border-box;
+  width: 100%;
   padding: 20px;
   background-color: #ffffff;
 }
@@ -44,7 +46,8 @@ textarea {
 }
 
 .input-default:focus {
-  border: 1px solid #FF9933;
+  border-color: transparent;
+  box-shadow: 0 0 4px #ff0000;
 }
 
 .button-default {
@@ -52,7 +55,7 @@ textarea {
   min-height: 40px;
   min-width: 80px;
   box-sizing: border-box;
-  background-color: #FF9933;
+  background-color: #e0e0e0;
   font-family: Glegoo;
   font-size: 16px;
   font-weight: bold;
@@ -64,7 +67,7 @@ textarea {
 }
 
 .button-default:hover {
-  background-color: #feba0a;
+  background-color: #fe450a;
 }
 
 h2 {
@@ -77,4 +80,39 @@ h2 {
 
 h2:hover {
   color: #a1a1a1;
+}
+
+.add-news {
+  min-width: 80px;
+  max-width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #000000;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.add-news:hover {
+  background-color: #ff0000;
+}
+
+.add-news .icon {
+  height: 100%;
+  float: left;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+  border-right: 1px dotted #ffffff;
+  font-size: 16px;
+}
+
+.add-news .text {
+  height: 100%;
+  float: left;
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 10px;
+  color: #ffffff;
+  font-family: 'Open Sans Condensed';
 }

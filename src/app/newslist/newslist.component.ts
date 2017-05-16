@@ -12,11 +12,12 @@ export class NewslistComponent implements OnInit {
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
-    this.newsService.getAllNews()
-      .subscribe(
-        news => this.allNews = news,
-        error => console.log("error", error)
-      )
+    this.allNews = this.newsService.getAllNews()
+    // this.newsService.getAllNews()
+    //   .subscribe(
+    //     news => this.allNews = news,
+    //     error => console.log("error", error)
+    //   )
   }
 
   // deleteNewsItem(id) {
