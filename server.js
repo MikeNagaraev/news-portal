@@ -5,6 +5,8 @@ var path = require('path');
 
 require('./server/db/models/News');
 
+var News = mongoose.model('News');
+
 var news = require('./server/routes/news');
 
 mongoose.connect('mongodb://mikhail:123456789@ds157987.mlab.com:57987/super-db');
@@ -18,7 +20,16 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use('/', news);
+app.use('/home/news', news);
+app.get('*', (req, res, next) => {
+  res.sendFile(path.join(__dirname, 'dist/index.html'));
+});
+
+
+
+
+
+
 
 app.set('port', 5000);
 

@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { NewslistComponent } from './newslist/newslist.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { NewsDetailComponent } from './news/news-detail.component';
+import { NewsFormComponent } from './news/news-form.component';
 
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -42,12 +43,20 @@ export const routes: Routes = [
 
   {
     path: 'news',
-    component: NewsComponent
+    component: NewsComponent,
+    pathMatch: 'full'
   },
 
   {
-    path: 'news/:id',
-    component: NewsDetailComponent
+    path: 'news/new',
+    component: NewsFormComponent,
+    pathMatch: 'full'
+  },
+
+  {
+    path: 'news/:news_id',
+    component: NewsDetailComponent,
+    pathMatch: 'full'
   }
 ];
 

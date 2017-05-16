@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService } from '../news.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params  } from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 
 
@@ -11,7 +11,7 @@ import 'rxjs/add/operator/switchMap';
 })
 export class NewsDetailComponent implements OnInit {
 
-  newsItem: any;
+  newsItem = {};
 
   constructor(
     private newsService: NewsService,
@@ -19,7 +19,7 @@ export class NewsDetailComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.route.params
-      .subscribe(params => this.newsItem = this.newsService.getNewsItem(+params['id']))
+    this.newsService.getNewsItem(this.route.snapshot.params['news_id'])
+      .subscribe(res => this.newsItem = res)
   }
 }

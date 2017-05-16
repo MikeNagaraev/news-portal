@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body {
-  background-color: rgb(245, 231, 211);
   height: 100%;
-  overflow: hidden;
+  background: transparent url('/assets/images/main_bg.jpg') repeat 0 0;
 }

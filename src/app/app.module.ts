@@ -17,6 +17,7 @@ import { NewsService } from './news.service';
 import { NavigationService } from './navigation.service';
 
 import { routing } from './app.routes';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { routing } from './app.routes';
     NavigationComponent,
     NewslistComponent,
     NewsDetailComponent,
-    NewsFormComponent
+    NewsFormComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

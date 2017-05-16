@@ -5,6 +5,7 @@
   position: relative;
   border-bottom: 2px solid #000000;
   padding: 0 50px;
+  background-color: #000000;
 }
 
 .app-header>.logo {
@@ -17,12 +18,12 @@
   font-size: 35px;
   font-weight: 600;
   text-decoration: none;
-  color: #000000;
+  color: #cbcbcb;
   text-transform: uppercase;
 }
 
 .logo-text:hover {
-  color: #a1a1a1;
+  color: #ffffff;
 }
 
 .news-filter {
@@ -36,7 +37,7 @@
   margin-top: 20px;
   padding: 0 16px;
   padding-bottom: 0;
-  color: #4c4c4c;
+  color: #cbcbcb;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -44,11 +45,11 @@
 }
 
 .news-filter a:hover {
-  color: #a1a1a1;
+  color: #ffffff;
 }
 
 .news-filter a:not(:last-child) {
-  border-right: 1px solid #a1a1a1;
+  border-right: 1px solid #cbcbcb;
 }
 
 .help-nav {
@@ -58,7 +59,7 @@
 
 .search-bar {
   position: relative;
-  color: #4c4c4c;
+  color: #cbcbcb;
   right: 40px;
 }
 
@@ -72,5 +73,5 @@
 }
 
 .search-bar i:hover {
-  color: #a1a1a1;
+  color: #ffffff;
 }

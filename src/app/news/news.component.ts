@@ -16,4 +16,8 @@ export class NewsComponent implements OnInit {
 
   }
 
+  navigate(link: any[]) {
+    this.newsService.navigate(link);
+  }
+
 }

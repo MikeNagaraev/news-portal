@@ -4,16 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-.news-form	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form {$/;"	function	line:1
-.news-form>.container	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form>.container {$/;"	function	line:8
-.news-form .form-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .form-group {$/;"	function	line:14
-.news-form label	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form label {$/;"	function	line:19
-.news-form .button-group	D:\Projects\news-portal\src\app\news\news.component.css	/^.news-form .button-group {$/;"	function	line:23
-textarea	D:\Projects\news-portal\src\app\news\news.component.css	/^textarea {$/;"	function	line:27
-.vertical-align	D:\Projects\news-portal\src\app\news\news.component.css	/^.vertical-align {$/;"	function	line:31
-.input-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default {$/;"	function	line:37
-.input-default:focus	D:\Projects\news-portal\src\app\news\news.component.css	/^.input-default:focus {$/;"	function	line:46
-.button-default	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default {$/;"	function	line:50
-.button-default:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^.button-default:hover {$/;"	function	line:66
-h2	D:\Projects\news-portal\src\app\news\news.component.css	/^h2 {$/;"	function	line:70
-h2:hover	D:\Projects\news-portal\src\app\news\news.component.css	/^h2:hover {$/;"	function	line:78
+div	D:\Projects\news-portal\src\app\app.component.html	/^<div class="container-fluid">$/;"	function	line:1
+div	D:\Projects\news-portal\src\app\app.component.html	/^  <div class="app-container">$/;"	function	line:2
+div	D:\Projects\news-portal\src\app\app.component.html	/^    <div class="container">$/;"	function	line:3
+div	D:\Projects\news-portal\src\app\app.component.html	/^      <div class="col-md-12">$/;"	function	line:4
+app	D:\Projects\news-portal\src\app\app.component.html	/^        <app-header><\/app-header>$/;"	function	line:5
+app	D:\Projects\news-portal\src\app\app.component.html	/^        <app-navigation><\/app-navigation>$/;"	function	line:6
+router	D:\Projects\news-portal\src\app\app.component.html	/^      <router-outlet><\/router-outlet>$/;"	function	line:8

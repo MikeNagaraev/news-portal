@@ -1,0 +1,15 @@
+.box {
+  height: 320px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.news-slider {
+  height: 300px;
+}
+
+.news-slider img {
+  height: 300px;
+  width: 100%;
+}

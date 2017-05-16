@@ -1,11 +1,11 @@
 .news-form {
-  margin-top: 20px;
   font-family: Copse;
   width: 100%;
   min-height: 500px;
 }
 
 .news-form>.container {
+  margin-top: 20px;
   box-shadow: 0 0 6px #000000;
   padding: 20px;
   background-color: #ffffff;
